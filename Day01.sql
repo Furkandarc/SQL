@@ -5,11 +5,11 @@ Create database darc;
 --CREATE - TABLO OLUSTURMA
 CREATE TABLE ogrenciler
 (
-ogrenci_no char(7),
-isim varchar(20),
+ogrenci_no char(7), --Uzunluğunu bildiğimiz stringler icin CHAR kullanilir
+isim varchar(20),	--Uzunluğunu bilmedigimiz stringler icin VARCHAR kullanilir
 soyisim varchar(25),
 not_ortalaması real, --Ondalıklı sayılar için kullanılır(Double gibi)
-kayit_tarihi date
+kayit_tarihi date --Kayit tarihi icin DATE kullanilir
 );
 
 --VAROLAN TABLODAN YENİ BİR TABLO OLUŞTURMA
